@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="usermotto">
+    <text>{{sharedText}}</text>
+    <map bindmarkertap="markertap" longitude="广州经度" latitude="广州纬度"></map>
+  </view>
+</view>
